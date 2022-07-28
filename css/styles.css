@@ -1,0 +1,76 @@
+.btn-white, .btn-navy {
+  font-size: 24px;
+  font-family: "Arial";
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0 15px;
+  display: inline-flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-navy {
+  color: #fff;
+  background-color: #172557;
+  border: 1px solid #172557;
+}
+.btn-white {
+  color: #172557;
+  background-color: #fff;
+  border: 1px solid #303E73;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: black;
+}
+nav ul li a.active {
+  color: teal;
+  text-decoration: underline;
+}
+nav ul li a:hover {
+  color: lightcoral;
+  text-decoration: overline;
+}
+@media screen and (max-width: 1200px) {
+  nav ul li a {
+    color: #fff;
+    background-color: #172557;
+  }
+}
+
+.message {
+  font-size: 24px;
+  font-family: Impact;
+  font-weight: 500;
+  color: #303E73;
+}
+
+.warning {
+  color: cornflowerblue;
+  font-size: 24px;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .warning {
+    font-size: 16px;
+    color: #1e1e1e;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
